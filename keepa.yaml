@@ -58,7 +58,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/category'
+                  $ref: '#/components/schemas/product'
         '400':
           description: bad input parameter
   /category:
